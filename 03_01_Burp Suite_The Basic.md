@@ -6,17 +6,17 @@ Burp Suite adalah sebuah framework yang ditulis dalam Java yang bertujuan untuk 
 Pada tingkat yang paling sederhana, Burp dapat menangkap dan memanipulasi semua lalu lintas antara penyerang dan server web, ini adalah inti dari framework ini. Setelah menangkap **request**, kita dapat memilih untuk mengirimnya ke berbagai bagian lain dari kerangka Burp Suite. Kemampuan untuk mencegat, melihat, dan memodifikasi permintaan web sebelum dikirim ke server target (atau, dalam beberapa kasus, tanggapan sebelum diterima oleh browser kami), menjadikan Burp Suite sempurna untuk segala jenis pengujian aplikasi web manual.
 
 ## Apa saja fungsi Burp Suite ?
-- Proxy
+### Proxy
 Proxy memungkinkan kita untuk mencegat dan memodifikasi permintaan/tanggapan saat berinteraksi dengan aplikasi web.
-- Repeater
+### Repeater
 Repeater memungkinkan kita untuk menangkap, memodifikasi, lalu mengirim ulang permintaan yang sama berkali-kali. Fitur ini bisa sangat berguna, terutama ketika kita perlu membuat payload melalui trial and error atau saat menguji fungsionalitas endpoint untuk mencari kekurangannya.
-- Intruder
+### Intruder
 Intruder memungkinkan kita untuk menyerang endpoint dengan permintaan. Ini sering digunakan untuk serangan bruteforce.
-- Decoder
+### Decoder
 Decoder memberikan layanan saat mengubah data baik dalam hal decoding informasi yang ditangkap, atau encoding payload sebelum mengirimkannya ke target. Meskipun ada layanan lain yang tersedia untuk melakukan pekerjaan yang sama, melakukan ini secara langsung di dalam Burp Suite bisa sangat efisien.
-- Comparer
+### Comparer
 Pembanding memungkinkan kita untuk membandingkan dua bagian data pada tingkat kata atau byte.
-- Sequencer
+### Sequencer
 Sequencer biasanya digunakan saat menilai keacakan token seperti nilai cookie session atau data yang dihasilkan secara acak lainnya. Jika algoritme tidak menghasilkan nilai acak yang aman, maka ini dapat membuka beberapa jalan serangan.
 
 ## Burp Proxy
